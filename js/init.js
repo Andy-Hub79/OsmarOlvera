@@ -348,7 +348,7 @@ function grax_tm_wavefy(){
 // ---------------   PRELOADER   -----------------------
 // -----------------------------------------------------
 
-function grax_tm_preloader() {
+/*function grax_tm_preloader() {
     "use strict";
 
     var preloader = $('#preloader');
@@ -359,7 +359,7 @@ function grax_tm_preloader() {
     setTimeout(function() {
         preloader.remove();
     }, 2000);
-}
+}*/
 
 // -----------------------------------------------------
 // --------------   TOPBAR BACKGROUND    ---------------
