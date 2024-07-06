@@ -348,24 +348,17 @@ function grax_tm_wavefy(){
 // ---------------   PRELOADER   -----------------------
 // -----------------------------------------------------
 
-function grax_tm_preloader(){
-	
-	"use strict";
-	
-	var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
-	var preloader = $('#preloader');
-	
-	if (!isMobile) {
-		setTimeout(function() {
-			preloader.addClass('preloaded');
-		}, 800);
-		setTimeout(function() {
-			preloader.remove();
-		}, 2000);
+function grax_tm_preloader() {
+    "use strict";
 
-	} else {
-		preloader.remove();
-	}
+    var preloader = $('#preloader');
+
+    setTimeout(function() {
+        preloader.addClass('preloaded');
+    }, 800);
+    setTimeout(function() {
+        preloader.remove();
+    }, 2000);
 }
 
 // -----------------------------------------------------
